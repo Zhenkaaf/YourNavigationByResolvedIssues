@@ -1,7 +1,13 @@
 .App {
   text-align: center;
+  background-color: #202225;
+  min-height: 100vh;
 }
-
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

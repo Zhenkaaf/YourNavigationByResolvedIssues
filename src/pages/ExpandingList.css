@@ -1,0 +1,88 @@
+.add {
+  margin-bottom: 20px;
+}
+
+
+
+
+.list__toggle {
+  background-color: #373c43;
+  color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  border: 2px solid #d3d3d3;
+  cursor: pointer;
+}
+.list__toggle:hover {
+  background-color: #202225;
+}
+.list__toggle.open {
+  background-color: #202225;
+}
+
+  .list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+  }
+  .list.open {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in-out;
+  }
+  .list__body {
+    background-color: #d3d3d3;
+    border-radius: 5px;
+  }
+  .list__header {
+    display: flex;
+    padding-bottom: 10px;
+    font-weight: 700;
+  }
+  .list__id {
+    text-align: start;
+    padding-left: 30px;
+    flex: 0 0 80px;
+  }
+  .list__problem {
+    flex: 1 1 auto;
+    text-align: start;
+  }
+  .list__difficulty {
+    flex: 0 0 200px;
+  }
+  .list__code {
+    flex: 0 0 200px;
+  }
+
+  .list__item {
+    border-bottom: 1px solid #202225;
+    width: 100%;
+    display: flex;
+    padding: 5px 0px;
+  }
+  
+  .item__id {
+    text-align: start;
+    padding-left: 30px;
+    flex: 0 0 80px;
+  }
+  .item__name {
+    flex: 1 1 auto;
+    text-align: start;
+  }
+  .item__difficulty{
+    flex: 0 0 200px;
+  }
+  .item__link {
+    flex: 0 0 200px;
+  }
+  
+ 
+  
+
+
